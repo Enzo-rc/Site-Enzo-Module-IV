@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="description" content="Snakaly, le restaurant Tamponnais spécialiste du poulet. Sur place ou à emporter"/>
+    <title>Snakaly CONTACT</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="apropos.html">A PROPOS</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <form action="Contacts.php" method="POST">
+        <h1>RESERVATION</h1>
+            <div class="contain-flex">
+                <div class="flex">
+                    <input type="text" name="prenom" placeholder="Prénom" required>
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <input type="text" name="mail" placeholder="chiken.runs@faster.re" required>
+                    <input type="text" name="nombre" placeholder="Nombre de personnes" required>
+                </div>
+
+                <div class="flex-2">
+                    <textarea cols="5" rows="5" name="date" placeholder="Réservation souhaitée le ..."></textarea>
+                    <textarea cols="5" rows="5" name="message" placeholder="Service, midi ou soir ..."></textarea>
+                </div>
+            </div>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+<footer>
+    <a href="#">Mention legales</a>
+    <a href="#">Politique de confidentialités</a>
+</footer>
+
+</body>
+</html>
